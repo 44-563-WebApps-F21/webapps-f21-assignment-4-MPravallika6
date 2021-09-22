@@ -15,7 +15,7 @@
     color: rgb(173, 236, 120);  
 }
 .stage-direction:hover{
-    color:rgb(238, 241, 14);
+    color:rgb(131, 14, 241);
     background-color:rgb(194, 238, 238);
 }
 .MISS PRISM{
@@ -23,4 +23,24 @@
 }
 .CECILY{
     color: rgb(243, 86, 13);
+}
+table{
+    border:1px solid black;
+    padding: 30px 25px 45px;
+    margin: 25px 50px 75px 100px;
+    width:50%;
+}
+th{
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+    background-color:pink;
+}
+td{
+    color:rgb(70, 51, 153);
+    border: 1px solid black;
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color:yellow;
 }
